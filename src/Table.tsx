@@ -18,7 +18,7 @@ const TableComponent = memo(({columns, data, players, lastUpdate, page, setPage}
   const dt = dayjs.unix(lastUpdate);
 
   // scroll width
-  const scrollWidth = 87 * Object.keys(players).length + 312 + 72
+  const scrollWidth = 93 * Object.keys(players).length + 312 + 72
 
   const tableTitle = () => (<>
     <Flex justify="space-between" style={{padding: "0 8px"}}>

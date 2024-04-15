@@ -203,7 +203,7 @@ const App = () =>  {
             showSizeChanger={false}
             style={{display: 'flex'}}
             pageSize={50}
-            total={db.length}
+            total={filteredData.length}
           />
         </Flex>
         <Table

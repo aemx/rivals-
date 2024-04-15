@@ -30,8 +30,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Footer>
         <Flex vertical align="center">
           <Text>Data provided by the <a style={{fontWeight: 'bold'}} className="external" href="https://itc.dance/" target="_blank" rel="noopener">International Timing Collective</a></Text>
-          <Text>Website maintained and developed by <a style={{fontWeight: 'bold'}} className="external" href="https://cering.dev/" target="_blank" rel="noopener">CERiNG</a></Text>
-          <Text>API made by <a style={{fontWeight: 'bold'}} className="external" href="https://mayf.pink/" target="_blank" rel="noopener">Mayflower</a></Text>
+          <Text>Concept and lead development by <a style={{fontWeight: 'bold'}} className="external" href="https://cering.dev/" target="_blank" rel="noopener">CERiNG</a></Text>
+          <Text>API and contributions from <a style={{fontWeight: 'bold'}} className="external" href="https://mayf.pink/" target="_blank" rel="noopener">Mayflower</a> and <a style={{fontWeight: 'bold'}} className="external" href="https://electr1.ca/" target="_blank" rel="noopener">teri</a></Text>
         </Flex>
       </Footer>
     </Layout>
